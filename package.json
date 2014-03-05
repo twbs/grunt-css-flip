@@ -1,0 +1,52 @@
+{
+  "name": "grunt-css-flip",
+  "description": "Grunt plugin for Twitter's css-flip",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twbs/grunt-css-flip",
+  "author": {
+    "name": "Chris Rebert",
+    "email": "code@rebertia.com",
+    "url": "http://chrisrebert.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twbs/grunt-css-flip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twbs/grunt-css-flip/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/twbs/grunt-css-flip/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-clean": "^0.4.0",
+    "grunt-contrib-nodeunit": "^0.2.0",
+    "grunt": "^0.4.2",
+    "grunt-jscs-checker": "^0.4.0",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "css",
+    "flip",
+    "bidi",
+    "rtl"
+  ],
+  "dependencies": {
+    "css-flip": "~0.3.0"
+  }
+}
