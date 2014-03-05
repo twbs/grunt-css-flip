@@ -38,46 +38,50 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+All options are passed directly to css-flip's `flip()` function.
+None of the options are required.
+
+#### options.compress
+Type: `Boolean`
+Default value: `false`
+
+Whether to slightly compress output. Some newlines and indentation are removed. Comments stay intact.
+
+#### options.indent
 Type: `String`
-Default value: `',  '`
+Default value: `'  '` (two spaces)
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+String value to use for 1 level of indentation in the output.
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+In this example, two CSS files are flipped using css-flip's default settings.
 
 ```js
 grunt.initConfig({
   css_flip: {
     options: {},
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'flipped-one.css': 'original-one.css',
+      'flipped-two.css': 'original-two.css'
     },
   },
 });
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+In this example, the resulting flipped CSS files will also be slightly compressed using css-flip's `compress` option.
 
 ```js
 grunt.initConfig({
   css_flip: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      compress: true
     },
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'flipped-one.min.css': 'original-one.css',
+      'flipped-two.min.css': 'original-two.css'
     },
   },
 });
