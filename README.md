@@ -95,4 +95,4 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
-_(Nothing yet)_
+* v0.1.0 (2014-03-06): Initial public release.
