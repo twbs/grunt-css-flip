@@ -1,4 +1,5 @@
 # grunt-css-flip
+[![NPM version](https://badge.fury.io/js/grunt-css-flip.png)](http://badge.fury.io/js/grunt-css-flip)
 
 > Grunt plugin for [Twitter's css-flip](https://github.com/twitter/css-flip)
 
