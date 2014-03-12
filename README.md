@@ -98,4 +98,8 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
+* v0.2.0 (2014-03-12): Fix/address all outstanding issues. **Backwards-incompatible**.
+  * **Changed name of task from `css_flip` to `cssflip`.**
+  * **Bumped Grunt dependency to v0.4.3.**
+  * Bumped & tightened-up devDependencies.
 * v0.1.0 (2014-03-06): Initial public release.

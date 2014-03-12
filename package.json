@@ -1,7 +1,7 @@
 {
   "name": "grunt-css-flip",
   "description": "Grunt plugin for Twitter's css-flip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/twbs/grunt-css-flip",
   "author": "Chris Rebert <code@rebertia.com> (http://chrisrebert.com)",
   "repository": {
