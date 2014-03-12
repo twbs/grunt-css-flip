@@ -22,7 +22,7 @@ var grunt = require('grunt');
     test.ifError(value)
 */
 
-exports.css_flip = {
+exports.cssflip = {
   setUp: function(done) {
     // setup here if necessary
     done();

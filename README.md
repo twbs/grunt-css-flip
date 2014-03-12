@@ -21,14 +21,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-css-flip');
 ```
 
-## The "css_flip" task
+## The "cssflip" task
 
 ### Overview
-In your project's Gruntfile, add a section named `css_flip` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `cssflip` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  css_flip: {
+  cssflip: {
     options: {
       // Task-specific options go here.
     },
@@ -63,7 +63,7 @@ In this example, two CSS files are flipped using css-flip's default settings.
 
 ```js
 grunt.initConfig({
-  css_flip: {
+  cssflip: {
     options: {},
     files: {
       'flipped-one.css': 'original-one.css',
@@ -78,7 +78,7 @@ In this example, the resulting flipped CSS files will also be slightly compresse
 
 ```js
 grunt.initConfig({
-  css_flip: {
+  cssflip: {
     options: {
       compress: true
     },
