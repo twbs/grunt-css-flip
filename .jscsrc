@@ -9,7 +9,6 @@
   "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
   "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
   "disallowTrailingWhitespace": true,
-  "requireCamelCaseOrUpperCaseIdentifiers": true,
   "requireCapitalizedConstructors": true,
   "requireCommaBeforeLineBreak": true,
   "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch", "case", "default"],
@@ -22,6 +21,5 @@
   "requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
   "requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
   "validateIndentation": 2,
-  "validateLineBreaks": "LF",
-  "validateQuoteMarks": "'"
+  "validateLineBreaks": "LF"
 }
