@@ -54,13 +54,13 @@ module.exports = function(grunt) {
         files: {
           'tmp/custom_options.css': 'test/fixtures/example.css'
         }
-      },
+      }
     },
 
     // Unit tests.
     nodeunit: {
       tests: ['test/*_test.js']
-    },
+    }
 
   });
 

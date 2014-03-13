@@ -44,5 +44,5 @@ exports.cssflip = {
     test.equal(actual, expected, 'should flip the CSS while honoring the custom indentation specified in the options.');
 
     test.done();
-  },
+  }
 };

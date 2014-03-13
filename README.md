@@ -34,8 +34,8 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
-    },
-  },
+    }
+  }
 });
 ```
 
@@ -68,8 +68,8 @@ grunt.initConfig({
     files: {
       'flipped-one.css': 'original-one.css',
       'flipped-two.css': 'original-two.css'
-    },
-  },
+    }
+  }
 });
 ```
 
@@ -85,8 +85,8 @@ grunt.initConfig({
     files: {
       'flipped-one.min.css': 'original-one.css',
       'flipped-two.min.css': 'original-two.css'
-    },
-  },
+    }
+  }
 });
 ```
 
