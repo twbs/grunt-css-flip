@@ -1,7 +1,7 @@
 # grunt-css-flip
 [![NPM version](https://badge.fury.io/js/grunt-css-flip.png)](http://badge.fury.io/js/grunt-css-flip)
-[![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.png)](https://david-dm.org/twbs/grunt-css-flip)
-[![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.png)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
+[![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip)
+[![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
 
 > Grunt plugin for [Twitter's css-flip](https://github.com/twitter/css-flip)
 
