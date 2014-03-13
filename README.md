@@ -98,6 +98,12 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
+* v0.2.1 (2014-03-13)
+  * Fix required Grunt version mentioned in README.
+  * Update dependencies and sort them by name.
+  * Remove extra commas from JS & docs examples; (mostly due to `grunt-init gruntplugin`)
+  * Enforce Unix-style newlines via `.gitattributes.`
+  * Use the shields.io theme for the dependency badges.
 * v0.2.0 (2014-03-12): Fix/address all outstanding issues. **Backwards-incompatible**.
   * **Changed name of task from `css_flip` to `cssflip`.**
   * **Bumped Grunt dependency to v0.4.3.**
