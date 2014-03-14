@@ -11,12 +11,10 @@
   "bugs": {
     "url": "https://github.com/twbs/grunt-css-flip/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/twbs/grunt-css-flip/blob/master/LICENSE"
-    }
-  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/twbs/grunt-css-flip/blob/master/LICENSE"
+  },
   "files": [
     "tasks",
     "LICENSE"
