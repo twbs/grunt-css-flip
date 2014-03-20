@@ -21,6 +21,8 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-css-flip');
 ```
 
+Alternatively, you could instead use [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks) to load this and other Grunt tasks.
+
 ## The "cssflip" task
 
 ### Overview
