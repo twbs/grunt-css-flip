@@ -21,5 +21,6 @@
   "requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
   "requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
   "validateIndentation": 2,
-  "validateLineBreaks": "LF"
+  "validateLineBreaks": "LF",
+  "validateQuoteMarks": "'"
 }
