@@ -1,5 +1,6 @@
 # grunt-css-flip
 [![NPM version](https://badge.fury.io/js/grunt-css-flip.png)](http://badge.fury.io/js/grunt-css-flip)
+[![Build Status](https://travis-ci.org/twbs/grunt-css-flip.svg)](https://travis-ci.org/twbs/grunt-css-flip)
 [![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip)
 [![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
 
