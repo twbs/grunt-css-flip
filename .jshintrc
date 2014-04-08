@@ -11,6 +11,5 @@
   "noempty": true,
   "plusplus": false,
   "sub": true,
-  "trailing": true,
   "undef": true
 }
