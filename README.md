@@ -1,8 +1,9 @@
 # grunt-css-flip
-[![NPM version](https://badge.fury.io/js/grunt-css-flip.png)](http://badge.fury.io/js/grunt-css-flip)
-[![Build Status](https://travis-ci.org/twbs/grunt-css-flip.png?branch=master)](https://travis-ci.org/twbs/grunt-css-flip)
-[![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip)
-[![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.png?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
+
+[![NPM version](https://badge.fury.io/js/grunt-css-flip.svg)](http://badge.fury.io/js/grunt-css-flip)
+[![Build Status](https://travis-ci.org/twbs/grunt-css-flip.svg?branch=master)](https://travis-ci.org/twbs/grunt-css-flip)
+[![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.svg?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip)
+[![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.svg?theme=shields.io)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
 
 > Grunt plugin for [Twitter's css-flip](https://github.com/twitter/css-flip)
 
