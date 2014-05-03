@@ -102,6 +102,12 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
+* v0.2.2 (2014-05-03)
+  * Add missing spaces before parameter lists in function expressions.
+  * Simplify `license` field in `package.json`.
+  * Bump `grunt-contrib-jshint` to `~0.10.0`.
+  * Bump `grunt-jscs-checker` to `~0.4.2`.
+  * Remove obsolete JSHint options in favor of JSCS.
 * v0.2.1 (2014-03-13)
   * Fix required Grunt version mentioned in README.
   * Update dependencies and sort them by name.
