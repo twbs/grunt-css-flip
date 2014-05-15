@@ -33,11 +33,12 @@ In your project's Gruntfile, add a section named `cssflip` to the data object pa
 ```js
 grunt.initConfig({
   cssflip: {
-    options: {
-      // Task-specific options go here.
-    },
     your_target: {
       // Target-specific file lists and/or options go here.
+      options: {
+        ...
+      },
+      files: ...
     }
   }
 });
@@ -68,10 +69,12 @@ In this example, two CSS files are flipped using css-flip's default settings.
 ```js
 grunt.initConfig({
   cssflip: {
-    options: {},
-    files: {
-      'flipped-one.css': 'original-one.css',
-      'flipped-two.css': 'original-two.css'
+    my_target: {
+      options: {},
+      files: {
+        'flipped-one.css': 'original-one.css',
+        'flipped-two.css': 'original-two.css'
+      }
     }
   }
 });
@@ -83,12 +86,14 @@ In this example, the resulting flipped CSS files will also be slightly compresse
 ```js
 grunt.initConfig({
   cssflip: {
-    options: {
-      compress: true
-    },
-    files: {
-      'flipped-one.min.css': 'original-one.css',
-      'flipped-two.min.css': 'original-two.css'
+    my_target: {
+      options: {
+        compress: true
+      },
+      files: {
+        'flipped-one.min.css': 'original-one.css',
+        'flipped-two.min.css': 'original-two.css'
+      }
     }
   }
 });
