@@ -107,6 +107,10 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
+* v0.3.0 (2014-05-23)
+  * **Bump `css-flip` to `~0.4.0`.**
+  * Bump `devDependencies`.
+  * Fix examples in README.
 * v0.2.2 (2014-05-03)
   * Add missing spaces before parameter lists in function expressions.
   * Simplify `license` field in `package.json`.
