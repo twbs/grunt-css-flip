@@ -23,7 +23,7 @@
     "css-flip": "~0.5.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.3",
+    "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.0",
