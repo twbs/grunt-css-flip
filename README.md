@@ -107,7 +107,7 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
-* v0.4.0 (not-yet-released)
+* v0.4.0 (2014-07-16)
   * **bump css-flip to `~0.5.0`**
   * **bump grunt to `~0.4.5`**
   * upgrade from grunt-jscs-checker `~0.4.4` to grunt-jscs `~0.6.1`
