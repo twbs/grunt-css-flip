@@ -27,7 +27,8 @@
     "grunt-contrib-clean": "~0.6.0",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.0",
-    "grunt-jscs": "~0.8.0",
+    "grunt-eslint": "^2.1.0",
+    "grunt-jscs": "^1.1.0",
     "load-grunt-tasks": "^2.0.0"
   },
   "peerDependencies": {

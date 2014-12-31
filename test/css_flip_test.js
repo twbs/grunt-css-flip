@@ -23,11 +23,11 @@ var grunt = require('grunt');
 */
 
 exports.cssflip = {
-  setUp: function(done) {
+  setUp: function (done) {
     // setup here if necessary
     done();
   },
-  default_options: function(test) {
+  defaultOptions: function (test) {
     test.expect(1);
 
     var actual = grunt.file.read('tmp/default_options.css');
@@ -36,7 +36,7 @@ exports.cssflip = {
 
     test.done();
   },
-  custom_options: function(test) {
+  customOptions: function (test) {
     test.expect(1);
 
     var actual = grunt.file.read('tmp/custom_options.css');

@@ -10,6 +10,7 @@
   "node": true,
   "noempty": true,
   "plusplus": false,
+  "predef": ["exports"],
   "sub": true,
   "undef": true
 }
