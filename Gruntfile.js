@@ -23,6 +23,17 @@ module.exports = function (grunt) {
       ]
     },
 
+    eslint: {
+      options: {
+        config: '.eslintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        'tasks/*.js',
+        '<%= nodeunit.tests %>'
+      ]
+    },
+
     jscs: {
       options: {
         config: '.jscsrc'
@@ -41,13 +52,13 @@ module.exports = function (grunt) {
 
     // Configuration to be run (and then tested).
     cssflip: {
-      default_options: {
+      defaultOptions: {
         options: {},
         files: {
           'tmp/default_options.css': 'test/fixtures/example.css'
         }
       },
-      custom_options: {
+      customOptions: {
         options: {
           indent: '    '
         },
@@ -74,7 +85,9 @@ module.exports = function (grunt) {
   // plugin's task(s), then test the result.
   grunt.registerTask('test', ['clean', 'cssflip', 'nodeunit']);
 
+  grunt.registerTask('lint', ['jshint', 'eslint', 'jscs']);
+
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'jscs', 'test']);
+  grunt.registerTask('default', ['lint', 'test']);
 
 };
