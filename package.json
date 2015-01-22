@@ -29,7 +29,7 @@
     "grunt-contrib-nodeunit": "~0.4.0",
     "grunt-eslint": "^4.0.0",
     "grunt-jscs": "^1.1.0",
-    "load-grunt-tasks": "^2.0.0"
+    "load-grunt-tasks": "^3.0.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.3"
