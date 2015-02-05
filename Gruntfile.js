@@ -81,13 +81,13 @@ module.exports = function (grunt) {
   // These plugins provide necessary tasks.
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
-  // Whenever the "test" task is run, first clean the "tmp" dir, then run this
-  // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'cssflip', 'nodeunit']);
-
   grunt.registerTask('lint', ['jshint', 'eslint', 'jscs']);
 
+  // Whenever the "test" task is run, first clean the "tmp" dir, then run this
+  // plugin's task(s), then test the result.
+  grunt.registerTask('test', ['lint', 'clean', 'cssflip', 'nodeunit']);
+
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['lint', 'test']);
+  grunt.registerTask('default', 'test');
 
 };
