@@ -108,10 +108,10 @@ Released under the MIT license. Copyright Chris Rebert 2014.
 
 ## Release History
 * v0.4.0 (2014-07-16)
-  * **bump css-flip to `~0.5.0`**
-  * **bump grunt to `~0.4.5`**
-  * upgrade from grunt-jscs-checker `~0.4.4` to grunt-jscs `~0.6.1`
-  * bump load-grunt-tasks to `~0.6.0`
+  * **Bump `css-flip` to `~0.5.0`**
+  * **Bump `grunt` to `~0.4.5`**
+  * Upgrade from `grunt-jscs-checker` `~0.4.4` to `grunt-jscs` `~0.6.1`
+  * Bump `load-grunt-tasks` to `~0.6.0`
 * v0.3.0 (2014-05-23)
   * **Bump `css-flip` to `~0.4.0`.**
   * Bump `devDependencies`.
