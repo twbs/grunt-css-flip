@@ -2,6 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/grunt-css-flip.svg)](http://badge.fury.io/js/grunt-css-flip)
 [![Build Status](https://travis-ci.org/twbs/grunt-css-flip.svg?branch=master)](https://travis-ci.org/twbs/grunt-css-flip)
+![Development Status :: 5 - Production/Stable](https://img.shields.io/badge/maturity-stable-green.svg "Development Status :: 5 - Production/Stable")
 [![Dependency Status](https://david-dm.org/twbs/grunt-css-flip.svg)](https://david-dm.org/twbs/grunt-css-flip)
 [![devDependency Status](https://david-dm.org/twbs/grunt-css-flip/dev-status.svg)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
 
