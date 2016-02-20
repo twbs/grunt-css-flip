@@ -12,8 +12,6 @@
 
 ## Getting Started
 
-This plugin requires Grunt `~0.4.3`.
-
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
@@ -53,14 +51,14 @@ All options are passed directly to css-flip's `flip()` function.
 None of the options are required.
 
 #### options.compress
-Type: `Boolean`
-Default value: `false`
+* Type: `Boolean`
+* Default: `false`
 
 Whether to slightly compress output. Some newlines and indentation are removed. Comments stay intact.
 
 #### options.indent
-Type: `String`
-Default value: `'  '` (two spaces)
+* Type: `String`
+* Default: `'  '` (two spaces)
 
 String value to use for 1 level of indentation in the output.
 
