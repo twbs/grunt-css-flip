@@ -10,7 +10,6 @@
 
 var flip = require('css-flip');
 
-
 module.exports = function (grunt) {
   grunt.registerMultiTask('cssflip', 'Grunt plugin for Twitter\'s css-flip', function () {
     var options = this.options({});
