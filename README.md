@@ -101,7 +101,7 @@ grunt.initConfig({
 ```
 
 ## Contributing
-The project's coding style is laid out in the JSHint and JSCS configurations. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+The project's coding style is laid out in the ESLint configuration. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## License and copyright
 
