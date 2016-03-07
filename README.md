@@ -113,6 +113,9 @@ The project's coding style is laid out in the ESLint configuration. Add unit tes
 Released under the MIT License. Copyright Chris Rebert 2014-2016.
 
 ## Release History
+* v0.9.9 (2016-03-07) [FINAL VERSION]
+  * [***Deprecate the package and mark it as unmaintained/abandoned!***](https://github.com/twbs/grunt-css-flip/blob/master/README.md#this-package-is-no-longer-maintained)
+  * **Bump `grunt` `peerDependency` to `>=0.4.5`**
 * v0.4.0 (2014-07-16)
   * **Bump `css-flip` to `~0.5.0`**
   * **Bump `grunt` to `~0.4.5`**
