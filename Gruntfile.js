@@ -12,31 +12,9 @@ module.exports = function (grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    jshint: {
-      options: {
-        jshintrc: '.jshintrc'
-      },
-      all: [
-        'Gruntfile.js',
-        'tasks/*.js',
-        '<%= nodeunit.tests %>'
-      ]
-    },
-
     eslint: {
       options: {
         config: '.eslintrc'
-      },
-      all: [
-        'Gruntfile.js',
-        'tasks/*.js',
-        '<%= nodeunit.tests %>'
-      ]
-    },
-
-    jscs: {
-      options: {
-        config: '.jscsrc'
       },
       all: [
         'Gruntfile.js',
@@ -81,7 +59,7 @@ module.exports = function (grunt) {
   // These plugins provide necessary tasks.
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
-  grunt.registerTask('lint', ['jshint', 'eslint', 'jscs']);
+  grunt.registerTask('lint', ['eslint']);
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
