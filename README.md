@@ -1,14 +1,19 @@
-# grunt-css-flip
+# grunt-css-flip [UNMAINTAINED/ABANDONED]
 
+![Still maintained?: Nope!](https://img.shields.io/badge/still_maintained%3F-Nope!-red.svg)
 [![NPM version](https://img.shields.io/npm/v/grunt-css-flip.svg)](https://www.npmjs.com/package/grunt-css-flip)
 [![Build Status](https://img.shields.io/travis/twbs/grunt-css-flip.svg?branch=master)](https://travis-ci.org/twbs/grunt-css-flip)
-![Development Status :: 5 - Production/Stable](https://img.shields.io/badge/maturity-stable-green.svg "Development Status :: 5 - Production/Stable")
+![Development Status :: 7 - Inactive](https://img.shields.io/badge/maturity-inactive-red.svg "Development Status :: 7 - Inactive")
 [![MIT License](https://img.shields.io/npm/l/grunt-css-flip.svg)](https://github.com/twbs/grunt-css-flip/blob/master/LICENSE)
 [![Dependency Status](https://img.shields.io/david/twbs/grunt-css-flip.svg)](https://david-dm.org/twbs/grunt-css-flip)
 [![devDependency Status](https://img.shields.io/david/dev/twbs/grunt-css-flip.svg)](https://david-dm.org/twbs/grunt-css-flip#info=devDependencies)
 
 
 > Grunt plugin for [Twitter's css-flip](https://github.com/twitter/css-flip)
+
+## This package is no longer maintained!
+
+If you are interested in taking ownership of it, please contact [@cvrebert](https://github.com/cvrebert) or another member of the [@twbs team](https://github.com/orgs/twbs/people).
 
 ## Getting Started
 
