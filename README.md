@@ -110,7 +110,7 @@ The project's coding style is laid out in the JSHint and JSCS configurations. Ad
 
 ## License and copyright
 
-Released under the MIT license. Copyright Chris Rebert 2014.
+Released under the MIT License. Copyright Chris Rebert 2014-2016.
 
 ## Release History
 * v0.4.0 (2014-07-16)
